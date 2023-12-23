@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #33435a;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.ima{
+height: 40%;
+width: 3%;
+margin-left: 90%;
+border-color: black;
+font-size: 10%;
+
+}
+
+
+
+
+
+.container h1 {
+    color: #2c83f2
+}
+
+header{
+    width: 320px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background-color: #F0F2F5;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    padding: 13px 18px;
+    margin-top: 18px;
+    margin-left: 21px;
+}
+
+.login-link{
+    width: 81%;
+    text-align: center;
+    background-color: #2C83F2;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.forgotton-password-link{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.new-account-link{
+    text-align: center;
+    margin-top: 40px;
+    width: 50%;
+    margin: 23%;
+    background-color: #36A420;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.login-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.forgotton-password-link a {
+    text-decoration: none;
+    color: #2C83F2;
+    font-size: 15px;
+}
+
+.new-account-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.background-modal-signup{
+    width: 100%;
+    height: 992px;
+    background: #fcfcfd;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.modal-signup{
+    width: 432px;
+    height: auto;
+    position: absolute;
+    background: #fff;
+    z-index: 2;
+    top: 15%;
+    left: 37%;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px rgb(190, 188, 187);
+}
+
+.modal-signup #spanBirthday{
+    font-size: 12px;
+    padding: 20px;
+    color: #606770;
+}
+
+.modal-signup .sectionBirthday{
+    margin-left: 21px;
+}
+
+.modal-signup .sectionBirthday select{
+    width: 115px;
+    height: 36px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.modal-signup .spanGender{
+    font-size: 12px;
+    padding: 20px;
+    color: #606770;
+}
+
+.modal-signup .divGender{
+    margin-left: 21px;
+}
+
+.modal-signup .divGender .divRadioInput{
+    width: 27.3%;
+    height: 36px;
+    padding: 0;
+    float: left;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.modal-signup .divGender .divRadioInput label{
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.modal-signup .divGender .divRadioInput input{
+    margin-left: 30%;
+    float: left;
+    margin-top: 9%;
+}
+
+.modal-signup .divGender .pronoum select{
+    width: 88%;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.modal-signup .optional_gender .information {
+    padding: 20px;
+    font-size: 11px;
+    color: #777;
+}
+
+.form-input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.modal-signup .optional_gender input{
+    width: 75%;
+    margin: 10px;
+    padding: 13px 18px;
+    margin-top: 5px;
+    margin-left: 21px;    
+    background-color: #f5f6f7;
+}
+
+.modal-signup .information{
+    padding: 20px;
+    font-size: 11px;
+    color: #777;
+}
+
+.modal-signup .btn_sign_up{
+    text-align: center;
+    width: 50%;
+    background-color: #36A420;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.modal-signup .btn_sign_up a{
+    text-decoration: none;
+    color: #fff;
+}
