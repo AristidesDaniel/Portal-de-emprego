@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet"  href="Vagas-Disponives.html">
+    <link rel="stylesheet"  href="test.css">
+    
+
+    <title>
+        Vagas-Disponives
+    </title>
+    
+    <script>
+        function showFields(type){
+            if(type === "custom"){
+                document.getElementById('pronoum').style.display = "";
+                document.getElementById('div_optional_gender').style.display = "";
+            }else {
+                document.getElementById('pronoum').style.display = "none";
+                document.getElementById('div_optional_gender').style.display = "none";
+            }       
+        }
+
+        function createAccount(type){
+            if(type === "open"){
+                document.getElementById('background-modal-signup').style.display = "";
+                document.getElementById('modal-signup').style.display = "";
+            }else if(type === "close"){
+                document.getElementById("background-modal-signup").style.display = "none";
+                document.getElementById("modal-signup").style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+
+
+    <body>
+
+        <ul>
+            <li><a  href="base_igor.html">Home</a></li>
+         </ul>
+        
+     
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="search...">
+             <button type="text"><i class='bx bx-search' ></i></button>
+
+
+             </form>
+
+   <div class="background-modal-signup" id="background-modal-signup" 
+        style="display: none;" onclick="createAccount('close')"></div>
+
+   <div class="modal-signup" id="modal-signup" style="display: none;">
+
+    <div class="box">
+        <div id="first-name-div">
+            <input type="text" class="form-input" id="first-name" name="first-name" placeholder="First Name">
+        </div>
+
+        <div id="last-name-div">
+            <input type="text" class="form-input" id="last-name" name="last-name" placeholder="Last Name">
+        </div>
+
+        <div>
+            <input type="email" class="form-input" name="email" placeholder="Email">
+        </div>
+
+        <div>
+            <input type="password" class="form-input" name="password" placeholder="Password">
+        </div>
+    </div>
+
+    <span id="spanBirthday">Birthday</span>
+    
+    <div class="sectionBirthday">
+
+        <div class="selectInput">
+            <select name="day" id="">
+                <option value="">Select...</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+        </div>
+
+        <div class="selectInput">
+            <select name="month" id="">
+                <option value="">Select...</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+        </div>
+
+        <div class="selectInput">
+            <select name="year" id="">
+                <option value="">Select...</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+        </div>
+
+    </div>
+
+    <span class="spanGender">Gender</span>
+    <div class="divGender">
+        <div class="divRadioInput">
+            <label for="">Famale</label>
+            <input type="radio" name="gender" onclick="showFields('famale')">
+        </div>
+        <div class="divRadioInput">
+            <label for="">Male</label>
+            <input style="margin-left: 45%!important;" type="radio" name="gender" onclick="showFields('male')">
+        </div>
+        <div class="divRadioInput">
+            <label for="">Custom</label>
+            <input type="radio" name="gender" onclick="showFields('custom')">
+        </div>
+
+        <div class="pronoum" id="pronoum" style="display: none;">
+            <select name="" id="">
+                <option value="">Select your pronoun</option>
+                <option value="">She: "Wish her a happy birthday!"</option>
+                <option value="">He: "Wish him a happy birthday!"</option>
+                <option value="">They: "Wish them a happy birthday!"</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="optional_gender" id="div_optional_gender" style="display: none;">
+        <span class="information">Your pronoun is visible to everyone.</span>
+        <input type="text" class="form-input" id="optional_gender" name="gender" placeholder="Gender (optional)">
+    </div>
+ 
+</div>
+    <a href="#" onclick="createAccount('open')">
+
+
+        <img src="user-plus-regular-24.png"  class="ima">
+     </a>  
+</body>
+</html>
