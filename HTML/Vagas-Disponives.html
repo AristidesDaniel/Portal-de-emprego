@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet"  href="Vagas-Disponives.html">
+    <link rel="stylesheet"  href="../css/test.css">
+    
+
+    <title>
+        Vagas-Disponives
+    </title>
+    
+    <script>
+        function showFields(type){
+            if(type === "perfil"){
+                document.getElementById('pronoum').style.display = "";
+                document.getElementById('div_optional_gender').style.display = "";
+            }else {
+                document.getElementById('pronoum').style.display = "none";
+                document.getElementById('div_optional_gender').style.display = "none";
+            }       
+        }
+
+        function createAccount(type){
+            if(type === "open"){
+                document.getElementById('background-modal-signup').style.display = "";
+                document.getElementById('modal-signup').style.display = "";
+            }else if(type === "close"){
+                document.getElementById("background-modal-signup").style.display = "none";
+                document.getElementById("modal-signup").style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+    <body>
+        
+        <h2><img src="../ima/bxs+business.ico" class="book1">Ango-Salo <a href="#" onclick="createAccount('open')">
+            <img src="../ima/user-plus-regular-24.png"  class="ima">
+            </a></h2>
+        
+      <div class="book">
+        <h5>Pesquisa Vagas Disponives </h5>
+        <input type="search" name="pesquisa" placeholder="pesquisa">
+      </div>
+       
+    
+   <div class="background-modal-signup" id="background-modal-signup" 
+        style="display: none;" onclick="createAccount('close')"></div>
+
+   <div class="modal-signup" id="modal-signup" style="display: none;">
+    <div class="divGender">
+        <div class="divRadioInput">
+            <label for="">Sair</label>
+            <input type="radio" name="gender" onclick="showFields('famale')">
+        </div>
+        <div class="divRadioInput">
+            <label for="">candidato</label>
+            <input style="margin-left: 45%!important;" type="radio" name="gender" onclick="showFields('male')">
+        </div>
+        <div class="divRadioInput">
+            <label for="">empregador</label>
+            <input type="radio" name="gender" onclick="showFields('perfil')">
+        </div>
+
+        <div class="pronoum" id="pronoum" style="display: none;">
+            <select name="" id="">
+                <option value="">Select your pronoun</option>
+                <option value="">Editsr perfil!"</option>
+                <option value="">Ver Perfil!"</option>
+                <option value="">Elimiar"</option>
+            </select>
+            <a href="#">
+                <div class="login-link">
+                    Enviar
+                  </div>
+            </a>
+        </div>
+       
+    </div>
+</div>
+   
+         <div class="Vagas">
+            
+            <div class="content">
+                  
+              <a class="back" href="../html/Vagas-Disponives.html"><h3 >Vagas Disponiveis</h3></a>
+              <br>
+              <br>
+              <br>
+              <div clase="one">
+                
+        
+                <h3> <div class="day"> Sobre</h3>
+                    
+                     
+                      <div class="seccao_retangular">
+                        
+                          <div class="coluna_de_footer">
+                              <h4>trmpo de treabalho</h4>
+                              <ul class="footer_ul">
+                                <li> (+244) 924 978 216</li>
+                            </ul>
+                          </div>
+                          <div class="coluna_de_footer">
+                            <h4> salario</h4>
+                            <ul class="footer_ul">
+                              <li> (+244) 924 978 216</li>
+                          </ul>
+                        </div>
+                          <div class="coluna_de_footer">
+                              <h4>contatos</h4>
+                              <ul class="footer_ul">
+                                  <li> (+244) 924 978 216</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <p>
+                        This human feeds me, i should be a god. Groom yourself 4 hours -
+                        checked, have your beauty sleep 18 hours - checked, be fabulous for
+                        the rest of the day - checked bite nose of your human for fall asleep
+                        upside-down or pushes butt to face or drink from the toilet, yet hack
+                        up furballs. Is good you understand your place in my world. Disappear
+                        for four days and return home with an expensive injury; bite the vet.
+                      </p>
+                    </div>
+<br>
+                    <h3> <div class="day"> Sobre</h3>                     
+                        <div class="seccao_retangular">
+                          
+                            <div class="coluna_de_footer">
+                                <h4>trmpo de treabalho</h4>
+                                <ul class="footer_ul">
+                                  <li> (+244) 924 978 216</li>
+                              </ul>
+                            </div>
+                            <div class="coluna_de_footer">
+                              <h4> salario</h4>
+                              <ul class="footer_ul">
+                                <li> (+244) 924 978 216</li>
+                            </ul>
+                          </div>
+                            <div class="coluna_de_footer">
+                                <h4>contatos</h4>
+                                <ul class="footer_ul">
+                                    <li> (+244) 924 978 216</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                          This human feeds me, i should be a god. Groom yourself 4 hours -
+                          checked, have your beauty sleep 18 hours - checked, be fabulous for
+                          the rest of the day - checked bite nose of your human for fall asleep
+                          upside-down or pushes butt to face or drink from the toilet, yet hack
+                          up furballs. Is good you understand your place in my world. Disappear
+                          for four days and return home with an expensive injury; bite the vet.
+                        </p>
+                      </div>
+  
+            
+
+                    </div>
+                </div>
+            
+              </div>
+            
+</body>        
+<footer class="footer">
+    <div class="corpo_do_footer">
+      
+        <div class="seccao_retangular">
+          
+            <div class="coluna_de_footer">
+                <h4>Portal de emprego</h4>
+                <ul class="footer_ul">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">privacy</a></li>
+                </ul>
+            </div>
+            <div class="coluna_de_footer">
+                <h4>contatos</h4>
+                <ul class="footer_ul">
+                    <li> (+244) 924 978 216</li>
+                    <li>(+244) 924 978 223</li>
+                    <li>Bairro Talatona, Via AL-16, numa zona urbanizada de Luanda, junto ao Centro de Convenções de
+                      Talatona. Garantimos estacionamento seguro e cómodo</li>
+                    <li>Luanda - Angola</li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+</footer>
+</html>
